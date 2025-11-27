@@ -1,19 +1,19 @@
 // 광고 변경 시, 아래 kgData만 변경하면 됩니다. 순서는 데이터 작성 순으로 적용됩니다.
 const kgData = [
   {
-    img: "./src/img/kg/inflearn-js10.webp",
-    link: "https://inf.run/6grz",
-    content: "JavaScript 알고리즘 베스트 10 강의",
+    img: "./src/img/kg/ad__KR_1.png",
+    link: "https://www.books.weniv.co.kr/",
+    content: "위니브 북스",
   },
   {
-    img: "./src/img/kg/weniv-scholar.webp",
-    link: "https://scholarship.weniv.co.kr/",
-    content: "위니브 청년 ICT 부스트 장학금",
+    img: "./src/img/kg/ad__KR_2.png",
+    link: "https://discord.gg/MASRTmyu8a",
+    content: "위니브 디스코드",
   },
   {
-    img: "./src/img/kg/weniv-world.png",
-    link: "https://world.weniv.co.kr/",
-    content: "파이썬 교육 플랫폼, 위니브 월드",
+    img: "./src/img/kg/ad__KR_3.png",
+    link: "https://weniversity.co.kr/",
+    content: "위니버시티",
   },
 ];
 
