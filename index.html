@@ -52,8 +52,6 @@
     <script src="./src/js/nav.js" defer></script>
     <script src="./src/js/ad.js" defer></script>
     <script src="./src/js/timer.js" defer></script>
-    <script src="./src/js/chat.js" type="module" defer></script>
-
     <!-- markdown -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism.min.css">
     <link href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/toolbar/prism-toolbar.min.css'
@@ -210,31 +208,6 @@
                         <div id="result_info">결과가 이 곳에 표시됩니다.</div>
                         <div id="result_desc"></div>
                     </div>
-
-                    <button class="btn-chatOpen">
-                        <img src="./src/img/icon-chatting.webp" alt="인공지능과의 채팅 열기">
-                    </button>
-                    <img class="chat-info" src="./src/img/chat-ai.webp" alt="">
-                    
-                    <!-- chat -->
-                    <article class="cont-chat close">
-                        <h4 class="sr-only">인공지능에게 질문하기</h4>
-
-                        <p class="info"> 💡 복잡한 로직의 답변은 20초 이상의 시간이 걸릴 수 있습니다.</p>
-                        <div class="chatroom">
-                            <ul class="chat-list">                       
-                            </ul>
-                        </div>
-                        <form class="inp-chat" method="post">
-                            <div>
-                                <textarea></textarea>
-                                <button type="submit">전송</button>
-                            </div>
-                        </form>
-                        <button class="chat-close">
-                            <img src="./src/img/close-wh.webp" alt="채팅방 닫기 ">
-                        </button>
-                    </article>
 
                     <div class="kg-carousel">
                         <ul class="kg-list"></ul>
